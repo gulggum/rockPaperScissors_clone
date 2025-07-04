@@ -7,5 +7,27 @@
     <link rel="stylesheet" href="./styles.css" />
     <script src="./app.js" type="module" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1 class="title">가위 바위 보 게임</h1>
+      <div class="players">
+        <div class="player">
+          <span class="name">플레이어</span> <span class="player_score">0</span>
+        </div>
+        <div class="computer">
+          <span class="name">컴퓨터</span>
+          <span class="computer_score">0</span>
+        </div>
+      </div>
+      <h2>선택하기</h2>
+      <div class="remainingNum">남은수: 10</div>
+      <div class="choiceBox">
+        <button class="scissors">가위</button>
+        <button class="rock">바위</button>
+        <button class="paper">보</button>
+      </div>
+      <div class="result">무승부</div>
+      <button class="restart_btn hidden">다시시작</button>
+    </div>
+  </body>
 </html>
