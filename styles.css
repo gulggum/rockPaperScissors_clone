@@ -38,11 +38,20 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+.result.resultCss {
+  font-size: 2rem;
+  margin-top: 0.8rem;
+}
 
 button {
   width: 100px;
   height: 40px;
   cursor: pointer;
+}
+.restart_btn {
+  display: none;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 .hidden {
   display: none;
