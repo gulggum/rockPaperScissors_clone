@@ -84,13 +84,15 @@ const playGame = () => {
           remainingNum.innerText = `남은수 : ${remainingNumValue}`;
         }
       }
+
+      //남은횟수가 0일때 게임 종료
       if (remainingNumValue === 0) {
         finishGame();
       }
     });
   });
 };
-console.log(totalGameNum);
+
 const finishGame = () => {
   //플레이어 승리시 승리문구 출력
 
